@@ -1,0 +1,126 @@
+/* Estilo base */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazZ3dWFvcmlqOG9oYXdlZnl6cXRld2t6b29mNDlxNnQ3aGNwOTZ6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rcFs59ww1R7yeFszmo/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    padding: 20px 10px;
+  }
+  
+  .branding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+  }
+  
+  .branding a img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .branding h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0;
+    color: white;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 10px;
+  }
+  
+  /* Secciones */
+  .services {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 6px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #ffffff;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-item {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .service-item:hover {
+    background-color: rgba(67, 67, 67, 0.85);
+  }
+  
+  .service-item h3 {
+    margin-top: 0;
+    color: #ffffff;
+    text-shadow: black 1px 0.1px 10px;
+  }
+
+  p .item-link {
+    text-decoration: none;
+    text-shadow: black 1px 1px 3px;
+    color:#25D366;
+  }
+  
+  /* Redes sociales */
+  .social-media {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .social-media h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-shadow: black 2px 2px 1px;
+  }
+  
+  .icons a img {
+    width: 60px;
+    height: 60px;
+    margin: 0 15px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid #fff;
+  }
+  
+  .icons a img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
