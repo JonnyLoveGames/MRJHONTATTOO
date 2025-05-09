@@ -2,19 +2,19 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazZ3dWFvcmlqOG9oYXdlZnl6cXRld2t6b29mNDlxNnQ3aGNwOTZ6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rcFs59ww1R7yeFszmo/giphy.gif);
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWJyNXFwMHpscnQyM3lwNmRrNmlmam1manFidjE0b3YwZ3BmNXYwMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKGzcb5tisxjhsGSQ/giphy.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #fff;
+    color: #000000;
     line-height: 1.6;
   }
   
   /* Header */
   header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.747);
     text-align: center;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 20px rgb(0, 0, 0);
     padding: 20px 10px;
   }
   
@@ -38,23 +38,24 @@ body {
     font-weight: 800;
     letter-spacing: 2px;
     margin: 0;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   header p {
-    font-size: 1.2rem;
-    color: #ccc;
+    font-size: 2rem;
+    color: #ffffff;
     margin-top: 10px;
   }
   
   /* Secciones */
   .services {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     margin: 40px auto;
     padding: 30px;
     max-width: 1000px;
     border-radius: 15px;
-    box-shadow: 0 6px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 1px rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
   }
   
   .services h2 {
@@ -62,6 +63,7 @@ body {
     font-size: 2rem;
     margin-bottom: 25px;
     color: #ffffff;
+    text-shadow: black 1px 1px 1rem;
   }
   
   .service-grid {
@@ -71,14 +73,14 @@ body {
   }
   
   .service-item {
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0);
     padding: 20px;
     border-radius: 10px;
     transition: background 0.3s ease;
   }
   
   .service-item:hover {
-    background-color: rgba(67, 67, 67, 0.85);
+    background-color: rgba(67, 67, 67, 0);
   }
   
   .service-item h3 {
@@ -123,4 +125,5 @@ body {
   footer {
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
+    color:rgb(0, 0, 0);
   }
